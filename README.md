@@ -1,5 +1,12 @@
 # Install Modelsim on a Ubuntu 22.04 Jelly fish
 
+tested on Apirl 23rd 2024
+
+reference:
+https://pcotret.github.io/modelsim-ubuntu/
+[https://stackoverflow.com/questions/76335589/modelsim-install-in-ubuntu-22-04](https://stackoverflow.com/questions/73895565/e-package-lib32gcc1-has-no-installation-candidate)
+
+
 ```
 wget http://download.altera.com/akdlm/software/acdsinst/13.1/162/ib_installers/ModelSimSetup-13.1.0.162.run
 chmod +x ModelSimSetup-13.1.0.162.run
@@ -11,7 +18,7 @@ chmod +x ModelSimSetup-13.1.0.162.run
 sudo dpkg --add-architecture i386
 sudo apt-get update
 sudo apt-get install build-essential
-sudo apt-get install gcc-multilib g++-multilib lib32z1 lib32stdc++6 lib32gcc1 expat:i386 fontconfig:i386 libfreetype6:i386 libexpat1:i386 libc6:i386 libgtk-3-0:i386 libcanberra0:i386 libpng16-16:i386 libice6:i386 libsm6:i386 libncurses5:i386 zlib1g:i386 libx11-6:i386 libxau6:i386 libxdmcp6:i386 libxext6:i386 libxft2:i386 libxrender1:i386 libxt6:i386 libxtst6:i386
+sudo apt-get install gcc-multilib g++-multilib lib32z1 lib32stdc++6 lib32gcc-s1 expat:i386 fontconfig:i386 libfreetype6:i386 libexpat1:i386 libc6:i386 libgtk-3-0:i386 libcanberra0:i386 libpng16-16:i386 libice6:i386 libsm6:i386 libncurses5:i386 zlib1g:i386 libx11-6:i386 libxau6:i386 libxdmcp6:i386 libxext6:i386 libxft2:i386 libxrender1:i386 libxt6:i386 libxtst6:i386
 ```
 
 
