@@ -39,6 +39,7 @@ https://www.intel.com/content/www/us/en/software-kit/750666/modelsim-intel-fpgas
 ### Make the installer executable
 
 ```
+cd Downloads/
 chmod +x ModelSimSetup-20.1.1.720-linux.run
 ```
 
