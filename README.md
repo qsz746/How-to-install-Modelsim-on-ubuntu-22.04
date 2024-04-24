@@ -9,7 +9,7 @@ Reference:
  https://stackoverflow.com/questions/73895565/e-package-lib32gcc1-has-no-installation-candidate 
  
 
-
+## Solution:
 ```
 wget http://download.altera.com/akdlm/software/acdsinst/13.1/162/ib_installers/ModelSimSetup-13.1.0.162.run
 chmod +x ModelSimSetup-13.1.0.162.run
