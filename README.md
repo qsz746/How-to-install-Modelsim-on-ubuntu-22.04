@@ -1,12 +1,13 @@
 # Install Modelsim on a Ubuntu 22.04 Jelly fish
 
-tested on Apirl 23rd 2024
+Tested on Apirl 23rd 2024
 
-reference:
-```
-[https://pcotret.github.io/modelsim-ubuntu/]
-[https://stackoverflow.com/questions/73895565/e-package-lib32gcc1-has-no-installation-candidate]
-```
+Reference:
+ 
+ https://pcotret.github.io/modelsim-ubuntu/ <br>
+
+ https://stackoverflow.com/questions/73895565/e-package-lib32gcc1-has-no-installation-candidate 
+ 
 
 
 ```
